@@ -1,0 +1,533 @@
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+}
+.center-1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+#wrapper #header .headTop {
+  background-color: #eaeaea;
+  height: 30px;
+}
+#wrapper #header .headTop .main {
+  line-height: 30px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #header .headTop .main .left {
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #header .headTop .main .left h5 {
+  margin-right: 5px;
+}
+#wrapper #header .headTop .main .left p a {
+  margin-right: 2px;
+  padding-right: 5px;
+}
+#wrapper #header .headTop .main .left p a:first-child {
+  border-right: 1px solid #b3aeae;
+}
+#wrapper #header .headTop .main .right ul {
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #header .headTop .main .right ul li a {
+  padding: 0 10px;
+  border-right: 1px solid #b3aeae;
+}
+#wrapper #header .headTop .main .right ul li:last-child a {
+  border-right: 0;
+  margin-right: 0;
+}
+#wrapper #header .headBottom .main {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #header .headBottom .main .logo a img {
+  width: 175px;
+  height: 56px;
+  margin: 25px 45px;
+}
+#wrapper #header .headBottom .main .search {
+  margin-top: 35px;
+}
+#wrapper #header .headBottom .main .search input:first-child {
+  float: left;
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0 4px;
+  border: 3px solid #ea4a36;
+}
+#wrapper #header .headBottom .main .search input:last-child {
+  width: 68px;
+  height: 32px;
+  color: #fff;
+  background-color: #ea4a36;
+  border: none;
+}
+#wrapper #header .headBottom .main .search input::-webkit-input-placeholder {
+  color: yellowgreen;
+}
+#wrapper #navWrap {
+  border-bottom: 2px solid #e1251b;
+}
+#wrapper #navWrap nav {
+  width: 1200px;
+  margin: 0 auto;
+}
+#wrapper #navWrap nav a {
+  margin: 0 22px;
+  font-size: 16px;
+  color: #333;
+  line-height: 50px;
+  display: inline-block;
+}
+#wrapper #navWrap nav a:first-child {
+  width: 210px;
+  height: 50px;
+  background-color: #e1251b;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 50px;
+}
+#wrapper #content .main {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#wrapper #content .main #navPath {
+  padding: 9px 15px 9px 0;
+  font-size: 0;
+}
+#wrapper #content .main #navPath a {
+  font-size: 12px;
+}
+#wrapper #content .main #navPath i {
+  padding: 0 5px;
+  font-size: 12px;
+}
+#wrapper #content .main #center {
+  margin: 5px 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #content .main #center .left {
+  width: 400px;
+  position: relative;
+}
+#wrapper #content .main #center .left .leftTop {
+  width: 400px;
+}
+#wrapper #content .main #center .left .leftTop .smallPic {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #dfdfdf;
+  position: relative;
+}
+#wrapper #content .main #center .left .leftTop .smallPic img {
+  width: 100%;
+}
+#wrapper #content .main #center .left .leftTop .smallPic .mask {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#wrapper #content .main #center .left .leftTop .bigPic {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 420px;
+  top: 0;
+  overflow: hidden;
+}
+#wrapper #content .main #center .left .leftTop .bigPic img {
+  width: 800px;
+  height: 800px;
+}
+#wrapper #content .main #center .left .leftBottom {
+  width: 400px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #content .main #center .left .leftBottom a {
+  width: 10px;
+  height: 54px;
+  border: 1px solid #ccc;
+  background-color: #ebebeb;
+  text-align: center;
+  line-height: 54px;
+}
+#wrapper #content .main #center .left .leftBottom a:first-child {
+  margin-right: 4px;
+}
+#wrapper #content .main #center .left .leftBottom #piclist {
+  width: 372px;
+  height: 56px;
+  position: relative;
+  overflow: hidden;
+}
+#wrapper #content .main #center .left .leftBottom #piclist ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+  position: absolute;
+  transition: all 0.5s;
+}
+#wrapper #content .main #center .left .leftBottom #piclist ul li img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  margin-right: 20px;
+}
+#wrapper #content .main #center .right {
+  width: 700px;
+}
+#wrapper #content .main #center .right .rightTop h3 {
+  font-style: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+  padding: 0;
+}
+#wrapper #content .main #center .right .rightTop > p {
+  color: #e12228;
+  margin-top: 15px;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap {
+  margin-top: 10px;
+  line-height: 28px;
+  background-color: #fee9ec;
+  padding: 7px;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceTop {
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceTop > span {
+  margin-right: 15px;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceTop .price {
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceTop .price div {
+  margin-left: 10px;
+  color: #cc1122;
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceTop .price div > span {
+  font-style: 16px;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceTop .price div p {
+  font-style: 24px;
+  font-weight: bold;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceTop .price div i {
+  font-style: 12px;
+  color: #cc1122;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceBottom {
+  width: 520px;
+  line-height: 28px;
+  display: flex;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceBottom p {
+  margin-left: 10px;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceBottom p span {
+  color: #999;
+}
+#wrapper #content .main #center .right .rightTop .priceWrap .priceBottom p span:first-child {
+  background-color: #c81623;
+  padding: 3px;
+  color: #fff;
+}
+#wrapper #content .main #center .right .rightTop .support {
+  margin-top: 10px;
+  line-height: 28px;
+}
+#wrapper #content .main #center .right .rightTop .support span {
+  margin-right: 15px;
+}
+#wrapper #content .main #center .right .rightTop .support p {
+  color: #999;
+}
+#wrapper #content .main #center .right .rightTop .address {
+  margin-top: 10px;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+  line-height: 28px;
+}
+#wrapper #content .main #center .right .rightTop .address span {
+  margin-right: 15px;
+}
+#wrapper #content .main #center .right .rightTop .address p {
+  color: #999;
+}
+#wrapper #content .main #center .right .rightBottom .choose {
+  display: flex;
+  margin-top: 10px;
+}
+#wrapper #content .main #center .right .rightBottom .choose .mark {
+  height: 30px;
+  background-color: snow;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+#wrapper #content .main #center .right .rightBottom .choose .mark a {
+  color: red;
+  margin-left: 20px;
+}
+#wrapper #content .main #center .right .rightBottom .chooseWrap dl {
+  margin: 13px 0;
+  display: flex;
+}
+#wrapper #content .main #center .right .rightBottom .chooseWrap dl dt {
+  margin-right: 15px;
+  line-height: 24px;
+}
+#wrapper #content .main #center .right .rightBottom .chooseWrap dl dd {
+  margin-right: 5px;
+  color: #666;
+  line-height: 24px;
+  padding: 2px 14px;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+#wrapper #content .main #center .right .rightBottom .chooseWrap dl dd.active {
+  color: red;
+}
+#wrapper #content .main #center .right .rightBottom .addCart {
+  display: flex;
+}
+#wrapper #content .main #center .right .rightBottom .addCart .count {
+  width: 55px;
+  margin-right: 15px;
+  position: relative;
+}
+#wrapper #content .main #center .right .rightBottom .addCart .count input {
+  width: 38px;
+  height: 37px;
+  border: 1px solid #ddd;
+  color: #555;
+}
+#wrapper #content .main #center .right .rightBottom .addCart .count a {
+  width: 15px;
+  height: 18px;
+  color: #666;
+  background-color: #f1f1f1;
+  position: absolute;
+  right: 1px;
+  text-align: center;
+  line-height: 18px;
+  top: 0;
+  border: 1px solid #ddd;
+}
+#wrapper #content .main #center .right .rightBottom .addCart .count a:last-child {
+  top: 19px;
+  border-top: none;
+}
+#wrapper #content .main #center .right .rightBottom .addCart button {
+  padding: 0 25px;
+  height: 36px;
+  font-style: 16px;
+  background-color: #e1251b;
+  color: #fff;
+  border: none;
+}
+#wrapper #goodsDetailWrap {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#wrapper #goodsDetailWrap .leftAside {
+  width: 210px;
+  border: 1px solid #ccc;
+}
+#wrapper #goodsDetailWrap .leftAside .asideTop {
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #goodsDetailWrap .leftAside .asideTop h4 {
+  width: 105px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+#wrapper #goodsDetailWrap .leftAside .asideTop h4.active {
+  border-top: 3px solid #e1251b;
+  border-bottom: none;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom {
+  padding: 10px;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div {
+  display: none;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div ul.goodslist1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div ul.goodslist1 li {
+  width: 50%;
+  border-bottom: 1px dashed #ededed;
+  line-height: 28px;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div ul.goodslist2 {
+  margin: 5px 0 15px;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div ul.goodslist2 li {
+  border-bottom: 1px solid #ededed;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div ul.goodslist2 li img {
+  width: 152px;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div ul.goodslist2 li p {
+  font-style: 16px;
+  color: #c81623;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div ul.goodslist2 li .button {
+  margin: 5px 0;
+  text-align: center;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div ul.goodslist2 li .button a {
+  padding: 2px 14px;
+  color: #8c8c8c;
+  line-height: 18px;
+  border: 1px solid #8c8c8c;
+}
+#wrapper #goodsDetailWrap .leftAside .asideBottom div.active {
+  display: block;
+}
+#wrapper #goodsDetailWrap .rightDetail {
+  width: 980px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox h4 {
+  border-bottom: 1px solid #ddd;
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 5px 0 5px 15px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap {
+  height: 170px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .left {
+  text-align: center;
+  position: relative;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .left img {
+  margin: 0 auto;
+  width: 87px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .left p {
+  color: #c81623;
+  font-style: 16px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .left i {
+  position: absolute;
+  top: 48px;
+  right: -25px;
+  font-style: 16px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .middle {
+  width: 668px;
+  height: 165px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .middle li {
+  width: 127px;
+  margin: 0 20px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .middle li img {
+  width: 120px;
+  height: 130px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .right {
+  border-left: 1px solid #ddd;
+  width: 153px;
+  height: 165px;
+  padding-left: 20px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .right p {
+  margin: 10px 0;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .right span {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .right i {
+  color: #b1191a;
+  font-style: 16px;
+  margin-bottom: 10px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .right div {
+  margin-top: 10px;
+}
+#wrapper #goodsDetailWrap .rightDetail .chooseBox .listWrap .right div button {
+  padding: 10px 25px;
+  font-style: 16px;
+  color: #fff;
+  background-color: #e1251b;
+  border: none;
+}
+#wrapper #goodsDetailWrap .rightDetail .bottomDetail .tabBtns {
+  background-color: #ededed;
+  display: flex;
+}
+#wrapper #goodsDetailWrap .rightDetail .bottomDetail .tabBtns li {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 11px;
+  text-align: center;
+  margin-right: -1px;
+}
+#wrapper #goodsDetailWrap .rightDetail .bottomDetail .tabBtns li.active {
+  background-color: red;
+}
+#wrapper #goodsDetailWrap .rightDetail .bottomDetail .tabBtns li.active a {
+  color: #fff;
+}
+#wrapper #goodsDetailWrap .rightDetail .bottomDetail .tabContents div {
+  padding-left: 20px;
+  line-height: 25px;
+  display: none;
+}
+#wrapper #goodsDetailWrap .rightDetail .bottomDetail .tabContents div.active {
+  margin: 10px 0;
+  display: block;
+}
